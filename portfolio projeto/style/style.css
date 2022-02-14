@@ -1,0 +1,33 @@
+:root{
+    --color1:  #D16A65;
+    --color2: #d7bc8a;
+}
+
+
+*{
+    margin-top: -10px; 
+    margin-left: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+/* elementos base*/
+body{
+    background: var(--color2);
+    font-family: 'Arial', Times, serif;
+    color: rgb(196, 31, 31);
+    font-size: 30px;
+}
+
+header .container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+h2 .logo{
+    color: var(--color2);
+    font-family: 'Arial Black', Times;
+    font-size: 60px;
+    
+}
